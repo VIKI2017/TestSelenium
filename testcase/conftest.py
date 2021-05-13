@@ -6,7 +6,7 @@ import pytest
 
 
 #
-with open("../data/config.yml") as f:
+with open("/var/jenkins_home/workspace/TestSelenium/data/config.yml") as f:
     data = yaml.safe_load(f)
     baseurl = data['data']['URL']
 
