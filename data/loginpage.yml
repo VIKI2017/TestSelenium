@@ -1,0 +1,19 @@
+goto_login:
+  - action: find_and_click
+    locator: "id"
+    value: "s-top-loginbtn"
+    mark: 点登录
+
+  - action: finds_and_click
+    locator: "class name"
+    value: "phoenix-btn-item"
+    index: 1
+    mark: 选择第2种登录方式
+
+
+
+
+
+
+
+

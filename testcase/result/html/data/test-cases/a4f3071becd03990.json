@@ -1,0 +1,154 @@
+{
+  "uid" : "a4f3071becd03990",
+  "name" : "test_alogin",
+  "fullName" : "test_demo2.TestDemo2#test_alogin",
+  "historyId" : "2f8d6cb02e01ad48229682220e61e969",
+  "time" : {
+    "start" : 1618672164252,
+    "stop" : 1618672164266,
+    "duration" : 14
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: finds_and_click() takes 3 positional arguments but 4 were given",
+  "statusTrace" : "self = <testcase.test_demo2.TestDemo2 object at 0x00000255508DD308>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"e7bdf67cad1ab64c96ae10ce167d772c\")>\n\n    @pytest.mark.run(order=1)\n    @allure.story(\"登录\")\n    @allure.step(\"成功登录\")\n    def test_alogin(self,browser):\n        # self.chrome.start().goto_main().login().creat_company()\n        #self.chrome.goto_main().goto_login().login()\n>       self.chrome.goto_main(browser).goto_login().login()\n\ntest_demo2.py:27: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\page\\loginpage.py:28: in login\n    self.parse(\"../data/loginpage.yml\",\"goto_login\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page.loginpage.LoginPage object at 0x00000255509C37C8>\nyaml_path = '../data/loginpage.yml', fun_name = 'goto_login'\n\n    def parse(self, yaml_path, fun_name):\n        \"\"\"\n        解析关键字，实现相应动作\n        :param yaml_path:\n        :param fun_name:\n        :return:\n        \"\"\"\n        with open(yaml_path, \"r\", encoding=\"utf-8\") as f:\n            function = yaml.load(f,Loader=yaml.FullLoader)\n            # 从关键字中取出一个函数\n        steps = function.get(fun_name)\n        # 解析每一组关键字\n        for step in steps:\n            # 如果发现关键字是 find_and_click ，就调用已经封装好的 find_and_click 即可\n            if step.get(\"action\") == \"find_and_click\":\n                self.find_and_click(step.get('locator'), step.get('value'))\n            elif step.get(\"action\") == \"find_and_send\":\n                self.find_and_send(step.get('locator'), step.get('value'),  step.get('content'))\n            elif step.get(\"action\") == \"finds_and_click\":\n>               self.finds_and_click(step.get('locator'), step.get('value'), step.get('index'))\nE               TypeError: finds_and_click() takes 3 positional arguments but 4 were given\n\n..\\page\\basepage.py:115: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestDemo2",
+    "time" : {
+      "start" : 1618672164249,
+      "stop" : 1618672164250,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1618672161229,
+      "stop" : 1618672164249,
+      "duration" : 3020
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: finds_and_click() takes 3 positional arguments but 4 were given",
+    "statusTrace" : "self = <testcase.test_demo2.TestDemo2 object at 0x00000255508DD308>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"e7bdf67cad1ab64c96ae10ce167d772c\")>\n\n    @pytest.mark.run(order=1)\n    @allure.story(\"登录\")\n    @allure.step(\"成功登录\")\n    def test_alogin(self,browser):\n        # self.chrome.start().goto_main().login().creat_company()\n        #self.chrome.goto_main().goto_login().login()\n>       self.chrome.goto_main(browser).goto_login().login()\n\ntest_demo2.py:27: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\page\\loginpage.py:28: in login\n    self.parse(\"../data/loginpage.yml\",\"goto_login\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page.loginpage.LoginPage object at 0x00000255509C37C8>\nyaml_path = '../data/loginpage.yml', fun_name = 'goto_login'\n\n    def parse(self, yaml_path, fun_name):\n        \"\"\"\n        解析关键字，实现相应动作\n        :param yaml_path:\n        :param fun_name:\n        :return:\n        \"\"\"\n        with open(yaml_path, \"r\", encoding=\"utf-8\") as f:\n            function = yaml.load(f,Loader=yaml.FullLoader)\n            # 从关键字中取出一个函数\n        steps = function.get(fun_name)\n        # 解析每一组关键字\n        for step in steps:\n            # 如果发现关键字是 find_and_click ，就调用已经封装好的 find_and_click 即可\n            if step.get(\"action\") == \"find_and_click\":\n                self.find_and_click(step.get('locator'), step.get('value'))\n            elif step.get(\"action\") == \"find_and_send\":\n                self.find_and_send(step.get('locator'), step.get('value'),  step.get('content'))\n            elif step.get(\"action\") == \"finds_and_click\":\n>               self.finds_and_click(step.get('locator'), step.get('value'), step.get('index'))\nE               TypeError: finds_and_click() takes 3 positional arguments but 4 were given\n\n..\\page\\basepage.py:115: TypeError",
+    "steps" : [ {
+      "name" : "成功登录",
+      "time" : {
+        "start" : 1618672164253,
+        "stop" : 1618672164264,
+        "duration" : 11
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: finds_and_click() takes 3 positional arguments but 4 were given\n",
+      "statusTrace" : "  File \"D:\\LearnProject\\SeleniumProject\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"D:\\LearnProject\\SeleniumProject\\testcase\\test_demo2.py\", line 27, in test_alogin\n    self.chrome.goto_main(browser).goto_login().login()\n  File \"D:\\LearnProject\\SeleniumProject\\page\\loginpage.py\", line 28, in login\n    self.parse(\"../data/loginpage.yml\",\"goto_login\")\n  File \"D:\\LearnProject\\SeleniumProject\\page\\basepage.py\", line 115, in parse\n    self.finds_and_click(step.get('locator'), step.get('value'), step.get('index'))\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "browser",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"e7bdf67cad1ab64c96ae10ce167d772c\")>"
+      } ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestDemo2::0",
+    "time" : {
+      "start" : 1618672164349,
+      "stop" : 1618672166572,
+      "duration" : 2223
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1618672166573,
+      "stop" : 1618672166574,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "网点模块"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDemo2"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-17T1KCH"
+  }, {
+    "name" : "thread",
+    "value" : "24344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "a4f3071becd03990.json",
+  "parameterValues" : [ ]
+}

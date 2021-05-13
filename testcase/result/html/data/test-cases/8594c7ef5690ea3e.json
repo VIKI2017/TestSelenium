@@ -1,0 +1,1256 @@
+{
+  "uid" : "8594c7ef5690ea3e",
+  "name" : "test_alogin",
+  "fullName" : "test_demo2.TestDemo2#test_alogin",
+  "historyId" : "2f8d6cb02e01ad48229682220e61e969",
+  "time" : {
+    "start" : 1619706943375,
+    "stop" : 1619706966850,
+    "duration" : 23475
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1619706941531,
+      "stop" : 1619706943370,
+      "duration" : 1839
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_TestDemo2",
+    "time" : {
+      "start" : 1619706943371,
+      "stop" : 1619706943371,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "成功登录",
+      "time" : {
+        "start" : 1619706943376,
+        "stop" : 1619706966849,
+        "duration" : 23473
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "browser",
+        "value" : "<selenium.webdriver.remote.webdriver.WebDriver (session=\"b365fd856f51c6e8d7ddbc9bdf340dd7\")>"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1619706966957,
+      "stop" : 1619706966958,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_TestDemo2::0",
+    "time" : {
+      "start" : 1619706966853,
+      "stop" : 1619706966955,
+      "duration" : 102
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "网点模块"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDemo2"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-17T1KCH"
+  }, {
+    "name" : "thread",
+    "value" : "9072-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d439059ac0fc8ee1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619706875273,
+        "stop" : 1619706899001,
+        "duration" : 23728
+      }
+    }, {
+      "uid" : "82a9b9f1ec74b8e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619705650490,
+        "stop" : 1619705674165,
+        "duration" : 23675
+      }
+    }, {
+      "uid" : "337f57f2f7c98f38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619705093057,
+        "stop" : 1619705116565,
+        "duration" : 23508
+      }
+    }, {
+      "uid" : "b8454c5f821db337",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619704914258,
+        "stop" : 1619704937730,
+        "duration" : 23472
+      }
+    }, {
+      "uid" : "c90a26015ee3b055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619704836282,
+        "stop" : 1619704851663,
+        "duration" : 15381
+      }
+    }, {
+      "uid" : "f23ed9d5448e02b3",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='172.17.170.49', port=80): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CE04F46288>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1619704783270,
+        "stop" : 1619704783270,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3b2a2b2c41e4c6ee",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='172.17.170.49', port=80): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DFBC129548>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1619704626281,
+        "stop" : 1619704626281,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "473e09659067881",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618752817992,
+        "stop" : 1618752833233,
+        "duration" : 15241
+      }
+    }, {
+      "uid" : "501d8d463c8cdd05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618752727403,
+        "stop" : 1618752742573,
+        "duration" : 15170
+      }
+    }, {
+      "uid" : "3e5204ed8014fd2e",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1618752695800,
+        "stop" : 1618752705905,
+        "duration" : 10105
+      }
+    }, {
+      "uid" : "8d19d5436927825b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618752670129,
+        "stop" : 1618752678214,
+        "duration" : 8085
+      }
+    }, {
+      "uid" : "24b6ee4d51e1faee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618752636599,
+        "stop" : 1618752644726,
+        "duration" : 8127
+      }
+    }, {
+      "uid" : "7e7bd70cae8bb745",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'click'",
+      "time" : {
+        "start" : 1618752575212,
+        "stop" : 1618752578273,
+        "duration" : 3061
+      }
+    }, {
+      "uid" : "3de235f8ff67623d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618752547324,
+        "stop" : 1618752550451,
+        "duration" : 3127
+      }
+    }, {
+      "uid" : "170cb76c4c008655",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618752454589,
+        "stop" : 1618752454768,
+        "duration" : 179
+      }
+    }, {
+      "uid" : "9977e4653688d229",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618752432768,
+        "stop" : 1618752432841,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "74828e855b394db4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618752334852,
+        "stop" : 1618752339905,
+        "duration" : 5053
+      }
+    }, {
+      "uid" : "b6525c850adcd2d4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1618752232372,
+        "stop" : 1618752242679,
+        "duration" : 10307
+      }
+    }, {
+      "uid" : "a20def406b16e392",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1618752179056,
+        "stop" : 1618752184114,
+        "duration" : 5058
+      }
+    }, {
+      "uid" : "d4946b4b73dd8106",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1618752079275,
+        "stop" : 1618752084290,
+        "duration" : 5015
+      }
+    }, {
+      "uid" : "10d3747799c1a1c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1618751809698,
+        "stop" : 1618751819962,
+        "duration" : 10264
+      }
+    }, {
+      "uid" : "a16d8873b7bf2cbb",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1618751752870,
+        "stop" : 1618751757891,
+        "duration" : 5021
+      }
+    }, {
+      "uid" : "f13b9f422d6307e5",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'list' object has no attribute 'click'",
+      "time" : {
+        "start" : 1618751695867,
+        "stop" : 1618751700889,
+        "duration" : 5022
+      }
+    }, {
+      "uid" : "72ded5dd8f82b5d9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1618751601296,
+        "stop" : 1618751611578,
+        "duration" : 10282
+      }
+    }, {
+      "uid" : "e7eaea46aedea366",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'list' object has no attribute 'click'",
+      "time" : {
+        "start" : 1618751563404,
+        "stop" : 1618751568425,
+        "duration" : 5021
+      }
+    }, {
+      "uid" : "624fbf1b47831763",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1618751499300,
+        "stop" : 1618751504322,
+        "duration" : 5022
+      }
+    }, {
+      "uid" : "c9c467632618d313",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1618751479233,
+        "stop" : 1618751484264,
+        "duration" : 5031
+      }
+    }, {
+      "uid" : "fe1a6398abb6c50e",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1618751453409,
+        "stop" : 1618751458422,
+        "duration" : 5013
+      }
+    }, {
+      "uid" : "8da3ac62191499cb",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1618751402588,
+        "stop" : 1618751402600,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "f8cdc5a29ba2a98a",
+      "status" : "broken",
+      "statusDetails" : "TypeError: finds_and_click() missing 1 required positional argument: 'index'",
+      "time" : {
+        "start" : 1618751340773,
+        "stop" : 1618751340775,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "d74dfde6d2660def",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618751254428,
+        "stop" : 1618751254507,
+        "duration" : 79
+      }
+    }, {
+      "uid" : "2214ce430a964806",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1618751175103,
+        "stop" : 1618751185401,
+        "duration" : 10298
+      }
+    }, {
+      "uid" : "ff7f1dd9a089039f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618750380031,
+        "stop" : 1618750382082,
+        "duration" : 2051
+      }
+    }, {
+      "uid" : "baac4bfa64a1c304",
+      "status" : "broken",
+      "statusDetails" : "TypeError: decoding str is not supported",
+      "time" : {
+        "start" : 1618750325659,
+        "stop" : 1618750325660,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "bcd8a3b75170a483",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618750105046,
+        "stop" : 1618750107114,
+        "duration" : 2068
+      }
+    }, {
+      "uid" : "ac8ad4cf765ef216",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'locator'",
+      "time" : {
+        "start" : 1618749998710,
+        "stop" : 1618750000715,
+        "duration" : 2005
+      }
+    }, {
+      "uid" : "363fbcdaedd6ead8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618749970020,
+        "stop" : 1618749972134,
+        "duration" : 2114
+      }
+    }, {
+      "uid" : "975a6a62381d5c08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618749870890,
+        "stop" : 1618749873944,
+        "duration" : 3054
+      }
+    }, {
+      "uid" : "ff8c6fb8996721cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618749830921,
+        "stop" : 1618749830964,
+        "duration" : 43
+      }
+    }, {
+      "uid" : "6c1e707dd199ab0b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618749762138,
+        "stop" : 1618749762145,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "37146d0806533708",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618749659298,
+        "stop" : 1618749661391,
+        "duration" : 2093
+      }
+    }, {
+      "uid" : "f74c8c507a7645da",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618749633188,
+        "stop" : 1618749635323,
+        "duration" : 2135
+      }
+    }, {
+      "uid" : "a532da115a6c4c3f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: 'using' must be a string\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618747652269,
+        "stop" : 1618747654291,
+        "duration" : 2022
+      }
+    }, {
+      "uid" : "ea80a50db8a03d0a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618747642542,
+        "stop" : 1618747642542,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e795d7a6a66444c8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: 'using' must be a string\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618747495193,
+        "stop" : 1618747497208,
+        "duration" : 2015
+      }
+    }, {
+      "uid" : "c29e2260481e0d1e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618747402232,
+        "stop" : 1618747404327,
+        "duration" : 2095
+      }
+    }, {
+      "uid" : "d882d1edd2ca01b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618747368319,
+        "stop" : 1618747370374,
+        "duration" : 2055
+      }
+    }, {
+      "uid" : "9d1f613cfd443e15",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618747210313,
+        "stop" : 1618747212385,
+        "duration" : 2072
+      }
+    }, {
+      "uid" : "300b6eeac3975baa",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618747172589,
+        "stop" : 1618747172589,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4740de9a9851246d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618747014162,
+        "stop" : 1618747016228,
+        "duration" : 2066
+      }
+    }, {
+      "uid" : "f61bb4b3c6b08be4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618746933933,
+        "stop" : 1618746939032,
+        "duration" : 5099
+      }
+    }, {
+      "uid" : "57a75bb3478e5f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618746514306,
+        "stop" : 1618746519359,
+        "duration" : 5053
+      }
+    }, {
+      "uid" : "5a9ca59ce6da232b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618746485800,
+        "stop" : 1618746490912,
+        "duration" : 5112
+      }
+    }, {
+      "uid" : "cd7c9d09a81519c4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618746445723,
+        "stop" : 1618746450778,
+        "duration" : 5055
+      }
+    }, {
+      "uid" : "3823537474ab0959",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618746412373,
+        "stop" : 1618746417429,
+        "duration" : 5056
+      }
+    }, {
+      "uid" : "2772787c4cf9758b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618746284730,
+        "stop" : 1618746289837,
+        "duration" : 5107
+      }
+    }, {
+      "uid" : "c808f81bf2c0bb5e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618746138514,
+        "stop" : 1618746143617,
+        "duration" : 5103
+      }
+    }, {
+      "uid" : "e0906d5b298371a5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618746114154,
+        "stop" : 1618746119259,
+        "duration" : 5105
+      }
+    }, {
+      "uid" : "7165410a01677cf",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618746064132,
+        "stop" : 1618746069189,
+        "duration" : 5057
+      }
+    }, {
+      "uid" : "923d4732013d6d9d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618746036963,
+        "stop" : 1618746037140,
+        "duration" : 177
+      }
+    }, {
+      "uid" : "31a70991fce6b085",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618746000382,
+        "stop" : 1618746000435,
+        "duration" : 53
+      }
+    }, {
+      "uid" : "4998710c54236c0f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: find_elements() takes from 1 to 3 positional arguments but 4 were given",
+      "time" : {
+        "start" : 1618745966311,
+        "stop" : 1618745966530,
+        "duration" : 219
+      }
+    }, {
+      "uid" : "5ca877e419d1bd44",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1618673584539,
+        "stop" : 1618673584557,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "f61924cd9071bcef",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1618673556776,
+        "stop" : 1618673556793,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "b12da119c27bb46f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: find_elements() takes from 1 to 3 positional arguments but 4 were given",
+      "time" : {
+        "start" : 1618673538519,
+        "stop" : 1618673538566,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "b553949846de6cd5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618673497102,
+        "stop" : 1618673497111,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "334b678ea97219a8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618673308151,
+        "stop" : 1618673308158,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "9529c5d16ba314e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618673201480,
+        "stop" : 1618673201489,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "7c90cde2b332f146",
+      "status" : "broken",
+      "statusDetails" : "TypeError: find_elements() missing 1 required keyword-only argument: 'index'",
+      "time" : {
+        "start" : 1618672980408,
+        "stop" : 1618672980417,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "a75653860804368a",
+      "status" : "broken",
+      "statusDetails" : "TypeError: find_elements() missing 1 required keyword-only argument: 'index'",
+      "time" : {
+        "start" : 1618672890931,
+        "stop" : 1618672890944,
+        "duration" : 13
+      }
+    }, {
+      "uid" : "32d9a469abbf25ea",
+      "status" : "broken",
+      "statusDetails" : "TypeError: find_elements() missing 1 required keyword-only argument: 'index'",
+      "time" : {
+        "start" : 1618672862267,
+        "stop" : 1618672862272,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "73cca045a0b6fb55",
+      "status" : "broken",
+      "statusDetails" : "TypeError: find_elements() takes from 1 to 3 positional arguments but 4 were given",
+      "time" : {
+        "start" : 1618672739140,
+        "stop" : 1618672739150,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "4262d4fae2e01e3e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618672633600,
+        "stop" : 1618672633781,
+        "duration" : 181
+      }
+    }, {
+      "uid" : "ccb79362b9693f80",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618672552469,
+        "stop" : 1618672552479,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "5eddda202bc196b5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618672491217,
+        "stop" : 1618672491226,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "98a2d9388482c022",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618672421088,
+        "stop" : 1618672421096,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "d2e92df2954bbc0f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618672300550,
+        "stop" : 1618672300558,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "333dc88e759f83",
+      "status" : "broken",
+      "statusDetails" : "TypeError: finds_and_click() takes 3 positional arguments but 4 were given",
+      "time" : {
+        "start" : 1618672231439,
+        "stop" : 1618672231444,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "a4f3071becd03990",
+      "status" : "broken",
+      "statusDetails" : "TypeError: finds_and_click() takes 3 positional arguments but 4 were given",
+      "time" : {
+        "start" : 1618672164252,
+        "stop" : 1618672164266,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "5c7db79aff7cfa10",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618672064786,
+        "stop" : 1618672064794,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "bc276c158662759",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618671678877,
+        "stop" : 1618671678884,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "3e96501648ed521a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618671430163,
+        "stop" : 1618671430171,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "86d159b6f47ad53f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"type\") to str",
+      "time" : {
+        "start" : 1618671406356,
+        "stop" : 1618671406360,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "ebe75f5d4808ac7d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618670236264,
+        "stop" : 1618670242279,
+        "duration" : 6015
+      }
+    }, {
+      "uid" : "d5817123cb711c2a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618670189161,
+        "stop" : 1618670195178,
+        "duration" : 6017
+      }
+    }, {
+      "uid" : "8b3010a267fe06e8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618669965248,
+        "stop" : 1618669971269,
+        "duration" : 6021
+      }
+    }, {
+      "uid" : "de16950d403ea7e2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618669815738,
+        "stop" : 1618669821758,
+        "duration" : 6020
+      }
+    }, {
+      "uid" : "90d2e0dda8fac4b1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618669715978,
+        "stop" : 1618669722102,
+        "duration" : 6124
+      }
+    }, {
+      "uid" : "a548aebbfe6f9ff6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618414731527,
+        "stop" : 1618414737542,
+        "duration" : 6015
+      }
+    }, {
+      "uid" : "56caf2e00cfffde1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618414636331,
+        "stop" : 1618414642344,
+        "duration" : 6013
+      }
+    }, {
+      "uid" : "e8eb1bc8aa7a14f1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618414269844,
+        "stop" : 1618414269853,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "aae06578aceefece",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'By' has no attribute 'locator'",
+      "time" : {
+        "start" : 1618414078068,
+        "stop" : 1618414078073,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "a09a086565cbba8b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618413808502,
+        "stop" : 1618413808512,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "9d4f04dc75343e11",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618413757846,
+        "stop" : 1618413757853,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "7d30b7031b3812d9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618413517127,
+        "stop" : 1618413517146,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "d76183708558bccf",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618413413891,
+        "stop" : 1618413413898,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "7a7d3415d51c4922",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618413293578,
+        "stop" : 1618413293596,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "5331fa318602f2da",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618413208004,
+        "stop" : 1618413208013,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "151d8722ee5f7be0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618413021385,
+        "stop" : 1618413021392,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "d529cb04c241193d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'selenium.webdriver.common.by' has no attribute 'locator'",
+      "time" : {
+        "start" : 1618412913694,
+        "stop" : 1618412913707,
+        "duration" : 13
+      }
+    }, {
+      "uid" : "37a6071a87876a97",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618412750623,
+        "stop" : 1618412750630,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "4675e17e046bb931",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618412663173,
+        "stop" : 1618412663181,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "2457c5ed8dc6a4a6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618412544642,
+        "stop" : 1618412544653,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "96ac33150eeb5bac",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618412398480,
+        "stop" : 1618412398488,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "7eb867e530b86897",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618412273717,
+        "stop" : 1618412273727,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "bdf1a8c9d5a73ce4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618412157462,
+        "stop" : 1618412157471,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "96c5adba514fbbf3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618412032562,
+        "stop" : 1618412032582,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "5ff71bf52d22b38e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618411977478,
+        "stop" : 1618411977487,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "4d51b53e1754fd53",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618411931860,
+        "stop" : 1618411931868,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "57d3ef2c31bf29f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618411875089,
+        "stop" : 1618411875097,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "f33428df9e83eec4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618411750225,
+        "stop" : 1618411750234,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "e136390d053f8cce",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618411605263,
+        "stop" : 1618411605270,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "24371022d51daacb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618411469592,
+        "stop" : 1618411469599,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "d87cca2796f56369",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618411443672,
+        "stop" : 1618411443672,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d61e30669a486106",
+      "status" : "broken",
+      "statusDetails" : "TypeError: finds() missing 1 required positional argument: 'index'",
+      "time" : {
+        "start" : 1618411393626,
+        "stop" : 1618411393630,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "53aba00e2f644a4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618411222123,
+        "stop" : 1618411222153,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "8f24ab76fb55f879",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'finds'",
+      "time" : {
+        "start" : 1618411156262,
+        "stop" : 1618411156285,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "7f5f772dc889ea17",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "time" : {
+        "start" : 1618411081166,
+        "stop" : 1618411081173,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "f86cb14c61369c0",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'find_and_click'",
+      "time" : {
+        "start" : 1618410643665,
+        "stop" : 1618410643669,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "69d5e0b20808333f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1618410606513,
+        "stop" : 1618410606513,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "28000619ac3bfb5f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'find_and_click'",
+      "time" : {
+        "start" : 1618410393368,
+        "stop" : 1618410393380,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "cef49af62c0c94b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618327731496,
+        "stop" : 1618327732136,
+        "duration" : 640
+      }
+    }, {
+      "uid" : "6aa2778e314f87dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618327560199,
+        "stop" : 1618327560722,
+        "duration" : 523
+      }
+    }, {
+      "uid" : "cbc62faa1559024c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618327409050,
+        "stop" : 1618327409551,
+        "duration" : 501
+      }
+    }, {
+      "uid" : "b2439c7e466b7c2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618327225885,
+        "stop" : 1618327226536,
+        "duration" : 651
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "8594c7ef5690ea3e.json",
+  "parameterValues" : [ ]
+}

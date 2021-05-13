@@ -1,0 +1,174 @@
+{
+  "uid" : "7a1cd22bc5d0bb41",
+  "name" : "test_bhaha",
+  "fullName" : "test_demo2.TestDemo2#test_bhaha",
+  "historyId" : "e5ef8d82e6d4bba776f7e26707dfdeb5",
+  "time" : {
+    "start" : 1619706978606,
+    "stop" : 1619706986607,
+    "duration" : 8001
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1619706941531,
+      "stop" : 1619706978603,
+      "duration" : 37072
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_TestDemo2",
+    "time" : {
+      "start" : 1619706978603,
+      "stop" : 1619706978603,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1619706986675,
+      "stop" : 1619706986675,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_TestDemo2::0",
+    "time" : {
+      "start" : 1619706986607,
+      "stop" : 1619706986673,
+      "duration" : 66
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "网点模块"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDemo2"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-17T1KCH"
+  }, {
+    "name" : "thread",
+    "value" : "19108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6739cac7c1f9704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619706864937,
+        "stop" : 1619706872938,
+        "duration" : 8001
+      }
+    }, {
+      "uid" : "9a1566624e80bbdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619705674168,
+        "stop" : 1619705682169,
+        "duration" : 8001
+      }
+    }, {
+      "uid" : "62837c4e17a4fbe2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619705116571,
+        "stop" : 1619705124571,
+        "duration" : 8000
+      }
+    }, {
+      "uid" : "97dc85b11cb55781",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619704937738,
+        "stop" : 1619704945740,
+        "duration" : 8002
+      }
+    }, {
+      "uid" : "a183a385a7bfd23a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619704851673,
+        "stop" : 1619704851674,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3b1c4e4488c0b74",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='172.17.170.49', port=80): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CE04F46288>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1619704791834,
+        "stop" : 1619704791834,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7bcc1de34243040",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='172.17.170.49', port=80): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DFBC129548>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1619704636352,
+        "stop" : 1619704636352,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a1cd22bc5d0bb41.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,154 @@
+{
+  "uid" : "f13b9f422d6307e5",
+  "name" : "test_alogin",
+  "fullName" : "test_demo2.TestDemo2#test_alogin",
+  "historyId" : "2f8d6cb02e01ad48229682220e61e969",
+  "time" : {
+    "start" : 1618751695867,
+    "stop" : 1618751700889,
+    "duration" : 5022
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'list' object has no attribute 'click'",
+  "statusTrace" : "self = <testcase.test_demo2.TestDemo2 object at 0x00000259240DE908>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"8f632c11fbd712c8cd5b8d9579f3a24d\")>\n\n    @pytest.mark.run(order=1)\n    @allure.story(\"登录\")\n    @allure.step(\"成功登录\")\n    def test_alogin(self,browser):\n        # self.chrome.start().goto_main().login().creat_company()\n        #self.chrome.goto_main().goto_login().login()\n>       self.chrome.goto_main(browser).goto_login().login()\n\ntest_demo2.py:27: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\page\\loginpage.py:16: in login\n    self.parse(\"../data/loginpage.yml\",\"goto_login\")\n..\\page\\basepage.py:106: in parse\n    self.finds_and_click(step.get('locator'),step.get('value'))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page.loginpage.LoginPage object at 0x0000025924124548>\nlocator = 'class name', value = 's_ipt'\n\n    def finds_and_click(self,locator,value):\n        # print(list_one,index)\n        sleep(5)\n>       self.finds(locator,value).click()\nE       AttributeError: 'list' object has no attribute 'click'\n\n..\\page\\basepage.py:76: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1618751692863,
+      "stop" : 1618751695865,
+      "duration" : 3002
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_TestDemo2",
+    "time" : {
+      "start" : 1618751695865,
+      "stop" : 1618751695865,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'list' object has no attribute 'click'",
+    "statusTrace" : "self = <testcase.test_demo2.TestDemo2 object at 0x00000259240DE908>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"8f632c11fbd712c8cd5b8d9579f3a24d\")>\n\n    @pytest.mark.run(order=1)\n    @allure.story(\"登录\")\n    @allure.step(\"成功登录\")\n    def test_alogin(self,browser):\n        # self.chrome.start().goto_main().login().creat_company()\n        #self.chrome.goto_main().goto_login().login()\n>       self.chrome.goto_main(browser).goto_login().login()\n\ntest_demo2.py:27: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\page\\loginpage.py:16: in login\n    self.parse(\"../data/loginpage.yml\",\"goto_login\")\n..\\page\\basepage.py:106: in parse\n    self.finds_and_click(step.get('locator'),step.get('value'))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page.loginpage.LoginPage object at 0x0000025924124548>\nlocator = 'class name', value = 's_ipt'\n\n    def finds_and_click(self,locator,value):\n        # print(list_one,index)\n        sleep(5)\n>       self.finds(locator,value).click()\nE       AttributeError: 'list' object has no attribute 'click'\n\n..\\page\\basepage.py:76: AttributeError",
+    "steps" : [ {
+      "name" : "成功登录",
+      "time" : {
+        "start" : 1618751695867,
+        "stop" : 1618751700888,
+        "duration" : 5021
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'list' object has no attribute 'click'\n",
+      "statusTrace" : "  File \"D:\\LearnProject\\SeleniumProject\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"D:\\LearnProject\\TestProject\\testcase\\test_demo2.py\", line 27, in test_alogin\n    self.chrome.goto_main(browser).goto_login().login()\n  File \"D:\\LearnProject\\TestProject\\page\\loginpage.py\", line 16, in login\n    self.parse(\"../data/loginpage.yml\",\"goto_login\")\n  File \"D:\\LearnProject\\TestProject\\page\\basepage.py\", line 106, in parse\n    self.finds_and_click(step.get('locator'),step.get('value'))\n  File \"D:\\LearnProject\\TestProject\\page\\basepage.py\", line 76, in finds_and_click\n    self.finds(locator,value).click()\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "browser",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"8f632c11fbd712c8cd5b8d9579f3a24d\")>"
+      } ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1618751703245,
+      "stop" : 1618751703245,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_TestDemo2::0",
+    "time" : {
+      "start" : 1618751700932,
+      "stop" : 1618751703243,
+      "duration" : 2311
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "网点模块"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDemo2"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-17T1KCH"
+  }, {
+    "name" : "thread",
+    "value" : "14968-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "f13b9f422d6307e5.json",
+  "parameterValues" : [ ]
+}

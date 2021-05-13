@@ -1,0 +1,119 @@
+{
+  "uid" : "d4e3d151cce746c0",
+  "name" : "test_company",
+  "fullName" : "test_demo2.TestDemo2#test_company",
+  "historyId" : "3901ba3c55ba7215e02e6d1c9677dc48",
+  "time" : {
+    "start" : 1618411875155,
+    "stop" : 1618411880162,
+    "duration" : 5007
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+  "statusTrace" : "self = <testcase.test_demo2.TestDemo2 object at 0x000001BECC71D788>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"629b95eb37274f7e6e6d99a9d5e58e9a\")>\n\n    @allure.story(\"进入网点管理\")\n    def test_company(self,browser):\n>       self.chrome.goto_main(browser).goto_company().creat_company()\n\ntest_demo2.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page.companypage.CompanyPage object at 0x000001BECC71D0C8>\n\n    def creat_company(self):\n>       self.find_elements(*self.company_enter)[0].click()\nE       TypeError: 'NoneType' object is not subscriptable\n\n..\\page\\companypage.py:11: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestDemo2",
+    "time" : {
+      "start" : 1618411875086,
+      "stop" : 1618411875087,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1618411868230,
+      "stop" : 1618411875086,
+      "duration" : 6856
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestDemo2::0",
+    "time" : {
+      "start" : 1618411880169,
+      "stop" : 1618411882451,
+      "duration" : 2282
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1618411882452,
+      "stop" : 1618411882452,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "网点模块"
+  }, {
+    "name" : "story",
+    "value" : "进入网点管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDemo2"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-17T1KCH"
+  }, {
+    "name" : "thread",
+    "value" : "5148-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4e3d151cce746c0.json",
+  "parameterValues" : [ ]
+}

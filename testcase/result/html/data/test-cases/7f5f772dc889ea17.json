@@ -1,0 +1,154 @@
+{
+  "uid" : "7f5f772dc889ea17",
+  "name" : "test_alogin",
+  "fullName" : "test_demo2.TestDemo2#test_alogin",
+  "historyId" : "2f8d6cb02e01ad48229682220e61e969",
+  "time" : {
+    "start" : 1618411081166,
+    "stop" : 1618411081173,
+    "duration" : 7
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not iterable",
+  "statusTrace" : "self = <testcase.test_demo2.TestDemo2 object at 0x0000025499590608>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"f3fd0f8757639b4764a2571ffed4f80d\")>\n\n    @pytest.mark.run(order=1)\n    @allure.story(\"登录\")\n    @allure.step(\"成功登录\")\n    def test_alogin(self,browser):\n        # self.chrome.start().goto_main().login().creat_company()\n        #self.chrome.goto_main().goto_login().login()\n>       self.chrome.goto_main(browser).goto_login().login()\n\ntest_demo2.py:27: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\page\\loginpage.py:28: in login\n    self.parse(\"../data/loginpage.yml\",\"login\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page.loginpage.LoginPage object at 0x000002549962A388>\nyaml_path = '../data/loginpage.yml', fun_name = 'login'\n\n    def parse(self, yaml_path, fun_name):\n        \"\"\"\n        解析关键字，实现相应动作\n        :param yaml_path:\n        :param fun_name:\n        :return:\n        \"\"\"\n        with open(yaml_path, \"r\", encoding=\"utf-8\") as f:\n            function = yaml.load(f)\n            # 从关键字中取出一个函数\n        steps = function.get(fun_name)\n        # 解析每一组关键字\n>       for step in steps:\nE       TypeError: 'NoneType' object is not iterable\n\n..\\page\\basepage.py:94: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestDemo2",
+    "time" : {
+      "start" : 1618411081164,
+      "stop" : 1618411081164,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1618411073576,
+      "stop" : 1618411081164,
+      "duration" : 7588
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'NoneType' object is not iterable",
+    "statusTrace" : "self = <testcase.test_demo2.TestDemo2 object at 0x0000025499590608>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"f3fd0f8757639b4764a2571ffed4f80d\")>\n\n    @pytest.mark.run(order=1)\n    @allure.story(\"登录\")\n    @allure.step(\"成功登录\")\n    def test_alogin(self,browser):\n        # self.chrome.start().goto_main().login().creat_company()\n        #self.chrome.goto_main().goto_login().login()\n>       self.chrome.goto_main(browser).goto_login().login()\n\ntest_demo2.py:27: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\page\\loginpage.py:28: in login\n    self.parse(\"../data/loginpage.yml\",\"login\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page.loginpage.LoginPage object at 0x000002549962A388>\nyaml_path = '../data/loginpage.yml', fun_name = 'login'\n\n    def parse(self, yaml_path, fun_name):\n        \"\"\"\n        解析关键字，实现相应动作\n        :param yaml_path:\n        :param fun_name:\n        :return:\n        \"\"\"\n        with open(yaml_path, \"r\", encoding=\"utf-8\") as f:\n            function = yaml.load(f)\n            # 从关键字中取出一个函数\n        steps = function.get(fun_name)\n        # 解析每一组关键字\n>       for step in steps:\nE       TypeError: 'NoneType' object is not iterable\n\n..\\page\\basepage.py:94: TypeError",
+    "steps" : [ {
+      "name" : "成功登录",
+      "time" : {
+        "start" : 1618411081166,
+        "stop" : 1618411081171,
+        "duration" : 5
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: 'NoneType' object is not iterable\n",
+      "statusTrace" : "  File \"D:\\LearnProject\\SeleniumProject\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"D:\\LearnProject\\SeleniumProject\\testcase\\test_demo2.py\", line 27, in test_alogin\n    self.chrome.goto_main(browser).goto_login().login()\n  File \"D:\\LearnProject\\SeleniumProject\\page\\loginpage.py\", line 28, in login\n    self.parse(\"../data/loginpage.yml\",\"login\")\n  File \"D:\\LearnProject\\SeleniumProject\\page\\basepage.py\", line 94, in parse\n    for step in steps:\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "browser",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"f3fd0f8757639b4764a2571ffed4f80d\")>"
+      } ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestDemo2::0",
+    "time" : {
+      "start" : 1618411086252,
+      "stop" : 1618411088571,
+      "duration" : 2319
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1618411088572,
+      "stop" : 1618411088572,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "网点模块"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDemo2"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-17T1KCH"
+  }, {
+    "name" : "thread",
+    "value" : "17052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "7f5f772dc889ea17.json",
+  "parameterValues" : [ ]
+}
