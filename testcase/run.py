@@ -12,7 +12,7 @@ if __name__ == '__main__':
     # pytest.main(['-s','-q','--alluredir=../result'])
     #/var/jenkins_home/workspace/TestSelenium/allure-report
     #pytest.main(['-s','-q', '--alluredir', './result/xml', '-n=3'])
-    pytest.main(['-s', '-q', '--alluredir', '/var/jenkins_home/workspace/TestSelenium/result/xml', '-n=3'])
+    pytest.main(['-s', '-q', '--alluredir', '/var/jenkins_home/workspace/TestSelenium/result/xml'])
     os.system("allure generate /var/jenkins_home/workspace/TestSelenium/result/xml -o /var/jenkins_home/workspace/TestSelenium/result/html --clean")
     #os.system("allure generate result/xml -o result/html --clean")
     # os.system(("allure serve allure"))
