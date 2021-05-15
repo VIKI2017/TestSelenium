@@ -29,7 +29,7 @@ def get_driver():
 
     if driver is None:
         # driver = webdriver.Chrome()
-        driver = webdriver.Remote('http://localhost:5001/wd/',desired_capabilities=chrome_capabilities)
+        driver = webdriver.Remote('http://localhost:5001/wd',desired_capabilities=chrome_capabilities)
         driver.get(baseurl)
         driver.maximize_window()
 
